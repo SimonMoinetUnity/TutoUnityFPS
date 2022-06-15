@@ -388,7 +388,7 @@ MonoBehaviour:
   syncInterval: 0.1
   weapon:
     name: Gun
-    damage: 10
+    damage: 40
     range: 100
   cam: {fileID: 1572283290251071234}
   mask:
@@ -406,6 +406,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70337169dab608f4d9c5787ad7e9bd89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  maxHealth: 100
+  disableOnDeath:
+  - {fileID: -7497569934969017195}
+  - {fileID: 1572283288499815299}
 --- !u!1 &1572283288508307087
 GameObject:
   m_ObjectHideFlags: 0
