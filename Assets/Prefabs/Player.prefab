@@ -298,8 +298,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  mouseSensitivityX: 8
-  mouseSensitivityY: 10
+  mouseSensitivityX: 12
+  mouseSensitivityY: 12
   thrusterForce: 1000
   jointSpring: 20
   jointMaxForce: 50
@@ -376,6 +376,10 @@ MonoBehaviour:
   - {fileID: -7497569934969017195}
   - {fileID: 7707139053969860813}
   remoteLayerName: RemotePlayer
+  dontDrawLayerName: DontDraw
+  playerGraphics: {fileID: 1572283288416819804}
+  playerUIPrefab: {fileID: 5020336979950423382, guid: 7ec700c0c1534c3478f06f2941822783,
+    type: 3}
 --- !u!136 &2364021671880557748
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -455,7 +459,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.9810774, y: 0, z: 1.3923945}
+  m_ConnectedAnchor: {x: 0.18062478, y: 1.17, z: 0.70145226}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -974,7 +978,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 247
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
